@@ -50,7 +50,7 @@
 
             <div class="col-12 col-lg-6 pd-right-col">
               <div class="pd-photo-wrap">
-                <img :src="'/img/' + product.image" :alt="product.title" class="pd-photo" />
+                <img :src="'./img/' + product.image" :alt="product.title" class="pd-photo" />
               </div>
             </div>
 
