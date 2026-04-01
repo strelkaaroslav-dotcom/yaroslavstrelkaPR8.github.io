@@ -28,7 +28,7 @@
             <tbody>
               <tr v-for="item in cart" :key="item.id">
                 <td>
-                  <img :src="'/img/' + item.image" :alt="item.title" class="cart-thumb">
+                  <img :src="'./img/' + item.image" :alt="item.title" class="cart-thumb">
                 </td>
                 <td>{{ item.title }}</td>
                 <td>{{ item.short_text }}</td>
