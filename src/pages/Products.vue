@@ -3,7 +3,7 @@
     <AppHeader variant="product" />
 
     <section class="product-hero">
-      <img src="/img/mmain.jpg" alt="Agridera Carrot Field" class="product-hero-photo" />
+      <img src="./img/mmain.jpg" alt="Agridera Carrot Field" class="product-hero-photo" />
     </section>
 
     <article>
@@ -96,7 +96,7 @@
               <div class="product-item">
                 <div class="product-item-img-wrap">
                   <router-link :to="'/carrot/' + p.id">
-                    <img :src="'/img/' + p.image" :alt="p.title" class="product-item-img" />
+                    <img :src="'./img/' + p.image" :alt="p.title" class="product-item-img" />
                   </router-link>
                 </div>
                 <div class="product-item-info">
