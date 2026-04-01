@@ -3,7 +3,7 @@
     <AppHeader variant="product" />
 
     <section class="product-hero">
-      <img src="./img/mmain.jpg" alt="Agridera Carrot Field" class="product-hero-photo" />
+      <img src="/img/mmain.jpg" alt="Agridera Carrot Field" class="product-hero-photo" />
     </section>
 
     <article>
